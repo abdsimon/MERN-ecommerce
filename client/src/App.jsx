@@ -4,6 +4,8 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/Checkout";
 import Footer from "./components/Footer";
 import ProductList from "./components/ProductList";
+import Home from "./pages/Home";
+import CartPage from "./pages/CartPage";
 
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
      <Header />
       <Routes>
       <Route path="/" element={<ProductList />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/cart" element={<CartPage />} />
       </Routes>
       <Footer />
     </>
