@@ -8,6 +8,9 @@ import axios from 'axios';
 
   
 
-
+  return (
+   
+  );
+}
 
 export default ProductDetail;
