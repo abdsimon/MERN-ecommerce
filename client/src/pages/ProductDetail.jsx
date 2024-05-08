@@ -5,6 +5,16 @@ import axios from 'axios';
 
 
 
+  useEffect(() => {
+    // Fetch product details from the server
+    axios.get(`/api/products/${id}`)
+      .then(response => {
+        setProduct(response.data);
+      })
+      .catch(error => {
+        console.error('Error fetching product details:', error);
+      });
+  }, [id]);
 
   if (!product) return <div>Loading...</div>;
 
