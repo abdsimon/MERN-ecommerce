@@ -9,7 +9,13 @@ import axios from 'axios';
   
 
   return (
+    <div>
+      <h2>{product.name}</h2>
+      <p>{product.description}</p>
    
+      {/* Add functionality to add this product to cart */}
+
+    </div>
   );
 }
 
