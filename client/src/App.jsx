@@ -7,7 +7,6 @@ import ProductList from "./components/ProductList";
 import Home from "./pages/Home";
 import CartPage from "./pages/CartPage";
 
-
 const App = () => {
   return (
     <>
