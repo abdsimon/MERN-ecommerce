@@ -14,7 +14,7 @@ import axios from 'axios';
       <p>{product.description}</p>
       <p>Price: ${product.price}</p>
       {/* Add functionality to add this product to cart */}
-
+      <button>Add to Cart</button>
     </div>
   );
 }
