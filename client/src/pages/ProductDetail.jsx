@@ -6,7 +6,7 @@ import axios from 'axios';
 
 
 
-  
+  if (!product) return <div>Loading...</div>;
 
   return (
     <div>
