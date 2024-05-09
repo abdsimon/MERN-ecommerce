@@ -1,23 +1,8 @@
+/* eslint-disable react/prop-types */
 // eslint-disable-next-line no-unused-vars
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import axios from 'axios';
+import React from 'react';
 
-const ProductDetail = () => {
-  const { id } = useParams();
-  const [product, setProduct] = useState(null);
-
-  useEffect(() => {
-    // Fetch product details from the server
-    axios.get(`/api/products/${id}`)
-      .then(response => {
-        setProduct(response.data);
-      })
-      .catch(error => {
-        console.error('Error fetching product details:', error);
-      });
-  }, [id]);
-
+const ProductDetail = ({ product }) => {
   if (!product) return <div>Loading...</div>;
 
   return (
