@@ -2,7 +2,12 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 
-
+const CheckoutPage = ({ totalPrice }) => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    address: ''
+  });
 
   
 
