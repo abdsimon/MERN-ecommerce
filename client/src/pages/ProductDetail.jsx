@@ -9,7 +9,7 @@ const ProductDetail = ({ product }) => {
     <div>
   
       
-      <p>Price: ${product.price}</p>
+      
  
       <button>Add to Cart</button>
     </div>
