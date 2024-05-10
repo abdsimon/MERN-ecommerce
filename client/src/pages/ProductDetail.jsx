@@ -8,7 +8,7 @@ const ProductDetail = ({ product }) => {
   return (
     <div>
   
-      <p>{product.description}</p>
+      
       <p>Price: ${product.price}</p>
  
       <button>Add to Cart</button>
