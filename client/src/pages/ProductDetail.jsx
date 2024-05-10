@@ -11,7 +11,7 @@ const ProductDetail = ({ product }) => {
       
       
  
-      <button>Add to Cart</button>
+      
     </div>
   );
 }
