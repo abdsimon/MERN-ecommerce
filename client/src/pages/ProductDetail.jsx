@@ -11,7 +11,7 @@ const ProductDetail = ({ product }) => {
       <p>{product.description}</p>
       <p>Price: ${product.price}</p>
  
-      <button>Add to Cart</button>
+      <button>Add to Cart :</button>
     </div>
   );
 }
