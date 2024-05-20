@@ -4,7 +4,7 @@ import React from 'react';
 const Header = () => {
   return (
     <header>
-      <h1>My E-com Store</h1>
+      <h1>My E-cog Store</h1>
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
