@@ -9,7 +9,7 @@ const Header = () => {
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/cart">Cart</Link></li>
-          <li><Link to="/checkout">Checkout</Link></li>si
+          <li><Link to="/checkout">Checkout</Link></li>s
         </ul>
       </nav>
     </header>
