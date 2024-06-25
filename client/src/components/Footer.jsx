@@ -1,12 +1,12 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
     <footer>
-      <p> 2024 My Ecommerce website   </p>
+      <p> 2024 My Ecommerce website siom </p>
     </footer>
   );
-}
+};
 
 export default Footer;
